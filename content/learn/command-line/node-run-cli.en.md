@@ -18,6 +18,8 @@ Above, you are explicitly telling the shell to run your script with `node`. You 
 
 ```js
 #!/usr/bin/node
+
+// your code
 ```
 
 Above, we are explicitly giving the absolute path of interpreter. Not all operating systems have `node` in the bin folder, but all should have `env`. You can tell the OS to run `env` with node as parameter:
